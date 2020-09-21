@@ -28,7 +28,7 @@ public class ProductCatAdapter extends RecyclerView.Adapter<ProductCatAdapter.Pr
     @Override
     public ProductViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(context).inflate(R.layout.product_row_item,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.catagory_row_item,parent,false);
         return new ProductViewHolder(view);
     }
 
